@@ -1,0 +1,7 @@
+{
+	"name": "prototype-SD-card-imager",
+	"main": "./index.html",
+	"window": {
+		"toolbar": false
+	}
+}

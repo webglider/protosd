@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Prototype SD card image writer</title>
+<link rel="stylesheet" href="jquery-ui.css">
+<style>
+.ui-progressbar {
+    position: relative;
+  }
+  .progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+</style>
+</head>
+
+<body>
+
+
+<label>Select your SD card disk: </label><select id="fs-list"></select>
+<button id="refresh">Refresh</button>
+<br>
+<label>Select your .img file: </label><input type="file" id="img-file" accept=".img"><br>
+<button id="write">Write Image!</button><br><br><br>
+<div id="progressbar"><div class="progress-label">Loading...</div></div>
+<script src="main.js"></script>
+</body>
+
+</html>
