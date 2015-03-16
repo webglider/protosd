@@ -16,6 +16,7 @@ $('#write').click(function() {
   writeImg($('#img-file').val(), $('#fs-list').val());
 });
 
+
 //create the progress bar
 var progressbar = $( "#progressbar" ),
       progressLabel = $( ".progress-label" );
@@ -30,7 +31,7 @@ var progressbar = $( "#progressbar" ),
       }
     });
 
-progressbar.progressbar( "value", 0 );
+progressbar.progressbar( "value", 50 );
 
 //unmount partitions
 function unmountFs(diskname) {
